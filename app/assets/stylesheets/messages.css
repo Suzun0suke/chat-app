@@ -36,9 +36,33 @@
 .side-header{
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .rooms{
   background-color: #2f3e51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+}
+
+.header-name a{
+  color: #fafafa;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.create-room a{
+  font-size: 10px;
+  color: deepskyblue;
+  text-decoration: none;
+  border: 1px solid lightblue;
+  padding: 14px;
+}
+.room{
+  padding: 20px 20px 40px;
+}
+.room a{
+  color: white;
+  text-decoration: none;
 }
